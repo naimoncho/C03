@@ -1,5 +1,5 @@
 // #include <stdio.h>
-// #include <string.h>
+#include <string.h>
 
 int ft_strncmp(char *s1, char *s2, unsigned int n)
 {
@@ -19,7 +19,6 @@ int ft_strncmp(char *s1, char *s2, unsigned int n)
 // int main()
 // {
 //     unsigned int n;
-
 //     n = 7;
 //     char s1[] = "to tus muertos";
 //     char s2[] = "tu tas muertos";

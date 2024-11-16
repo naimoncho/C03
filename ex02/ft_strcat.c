@@ -1,4 +1,4 @@
-#include <stdio.h>
+// #include <stdio.h>
 #include <string.h>
 
 char *ft_strcat(char *dest, char *src)
@@ -21,12 +21,11 @@ char *ft_strcat(char *dest, char *src)
     dest[i] = '\0';
     return (dest);
 }
-
-int main()
-{
-    char src[] = "Adioooos";
-    char dest[50] = "Holaa";
-    printf ("%s\n", strcat(dest, src));
-    printf ("%s", dest);
-    return 0;
-}
+// int main()
+// {
+//     char src[] = "Adioooos";
+//     char dest[50] = "Holaa";
+//     printf ("%s\n", strcat(dest, src));
+//     printf ("%s", dest);
+//     return 0;
+// }
